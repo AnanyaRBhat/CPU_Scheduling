@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECart</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        
+            background-image: url("./home_bg.jpg");
+            
+        
+    }
+
+    .lets-box {
+        background-color: rgba(255, 255, 255, 0.7); 
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 20px auto; 
+        max-width: 80%; 
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #671cae;
+        padding: 30px; 
+        font-family: 'Lobster', cursive;
+        font-size: 50px;
+    }
+
+    h2 {
+        color: #671cae;
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+    }
+
+    p {
+        color: #671cae;
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+    }
+
+    .books {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0px 2px 4px 0px;
+        transition: transform 0.3s;
+        cursor: pointer;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        color: #333;
+        margin: 20px;
+        width: 300px; 
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+    }
+
+    .books:hover {
+        transform: scale(1.05);
+    }
+
+    .books img {
+        width: 100%;
+        height: auto; 
+        border-radius: 10px; 
+        margin-bottom: 10px; 
+    }
+
+    footer {
+        text-align: center;
+        background:white;
+        color:#671cae;
+        padding: 20px;
+        font-family: 'Lobster', cursive;;
+    }
+</style>
+</head>
+<body>
+<div class="lets-box">
+    <h1>Lets Explore and Learn more!!!</h1>
+</div>
+<div class="container">
+    <div class="books">
+        <a href="http://localhost/webtech/login1.html"><img src="ops1.jpg"></a>
+        <h2>Operating System Concept</h2>
+        <p>Price-450/-</p>
+    </div>
+    <div class="books">
+        <a href="http://localhost/webtech/login2.html"><img src="opss2.webp"></a>
+        <h2>Operating System Design and Implementation</h2>
+        <p>Price-560/-</p>
+    </div>
+    <div class="books">
+        <a href="http://localhost/webtech/login3.html"><img src="ops3.png"></a>
+        <h2>Operating System Deep Learning</h2>
+        <p>Price-475/-</p>
+    </div>
+</div>
+<footer>
+    <marquee><h3>Buy any 1 book to improve your knowledge</h3></marquee> 
+    <h6>&copy; Operating system</h6>
+</footer>
+</body>
+</html>
